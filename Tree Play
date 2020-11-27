@@ -1,0 +1,17 @@
+---
+- name: Basic Play to Install App (Tree)
+  hosts: rhel_servers
+  remote_user: pwb        
+  become: true
+  become_method: sudo
+  gather_facts: no
+  connection: ssh
+  tasks: 
+   
+    - name: install tree
+      yum:
+        state: present
+        name:
+         - tree
+            
+...
