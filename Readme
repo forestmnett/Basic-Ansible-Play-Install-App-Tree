@@ -1,1 +1,2 @@
 The tree app is a simple ansible playbook written to install tree across multiple RHEL systems
+I would like to start a project soon expanding on my ansible knowledge with networks. The goal is to soon create a playbook to create a VLAN across multiple devices at the same time. 
